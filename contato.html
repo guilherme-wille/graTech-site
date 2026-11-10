@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato | GraTech</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+    <header class="site-header">
+        <a class="logo" href="index.html">GraTech<span>.</span></a><button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button><nav class="nav">
+            <a href="index.html">Inicial</a><a href="servicos.html">Projetos e serviços</a><a href="membros.html">Membros</a><a class="active" href="contato.html">Contato</a></nav><a class="button button-dark header-cta" href="#formulario">Vamos conversar ↗</a></header>
+    <main>
+        <section class="contact-hero container">
+            <p class="eyebrow">CONTATO</p>
+            <div class="contact-title">
+                <h1>Todo bom projeto<br>começa com uma visita<br>técnica.</h1>
+                <p>Não precisa saber o que contratar. Conte como é o seu ambiente e o que precisa melhorar: a gente mapeia, projeta e orça.</p>
+            </div>
+        </section>
+        <section class="contact-layout container">
+            <aside class="contact-info">
+                <p class="eyebrow">PREFERE FALAR DIRETO?</p>
+                <a href="mailto:12500283@aluno.cotemig.com.br">12500283@aluno.cotemig.com.br</a>
+                <a href="tel:+5531989536615">+55 (31) 98953-6615</a>
+                <hr>
+                    <p>Base em Belo Horizonte. Atendimento presencial e remoto.</p>
+                    <small>Segunda a sexta, das 9h às 18h.</small>
+                    <div class="info-box">
+                        <b>Ainda explorando uma ideia?</b>
+                        <p>A visita técnica serve para entender o ambiente e indicar a melhor solução, com orçamento transparente.</p>
+                    </div>
+            </aside>
+            <form class="contact-form" id="formulario">
+                <div class="form-top">
+                    <h2>Conte seu desafio</h2>
+                    <small>* CAMPOS OBRIGATÓRIOS</small>
+                </div>
+                <div class="form-grid">
+                    <label>Nome completo *<input required name="nome" placeholder="Como podemos chamar você?"></label>
+                    <label>E-mail *<input required type="email" name="email" placeholder="voce@empresa.com.br"></label>
+                    <label>Empresa *<input required name="empresa" placeholder="Nome da sua organização"></label>
+                    <label>Telefone / Whatsapp *<input required name="telefone" placeholder="(31) 9XXXX-XXXX"></label>
+                    <fieldset class="full">
+                        <legend>Como podemos ajudar? *</legend>
+                        <div class="chips">
+                            <label>
+                                <input type="checkbox" name="servico" value="Elétrica e automação">Elétrica e automação
+                            </label>
+                            <label>
+                                <input type="checkbox" name="servico" value="Hardware e software">Hardware e software
+                            </label>
+                            <label>
+                                <input type="checkbox" name="servico" value="Redes e cabeamento">Redes e cabeamento
+                            </label>
+                            <label>
+                                <input type="checkbox" name="servico" value="CFTV">CFTV
+                            </label>
+                            <label>
+                                <input type="checkbox" name="servico" value="Nuvem">Nuvem
+                            </label>
+                            <label>
+                                <input type="checkbox" name="servico" value="Ainda não sei">Ainda não sei
+                            </label>
+                        </div>
+                    </fieldset>
+                    <label>Tipo de ambiente *
+                        <select required name="ambiente">
+                            <option value="">Selecione uma faixa</option>
+                            <option>Residencial</option>
+                            <option>Comercial / escritório</option>
+                            <option>Industrial</option>
+                            <option>Institucional</option>
+                            <option>Outro</option>
+                        </select>
+                    </label>
+                    <label>Prazo desejado *
+                        <select required name="prazo">
+                            <option value="">Selecione um período</option>
+                            <option>Imediato</option><option>Até 30 dias</option>
+                            <option>De 1 a 3 meses</option><option>Mais de 3 meses</option>
+                            <option>A definir</option>
+                        </select>
+                    </label>
+                    <label class="full">Descreva o ambiente e a necessidade *
+                        <textarea required name="mensagem" rows="4" placeholder="Ex.: escritório com 20 estações, rede instável e sem câmeras."></textarea>
+                        <small>Evite compartilhar senhas, dados sensíveis ou informações confidenciais.</small>
+                    </label>
+                    <label class="consent full">
+                        <input required type="checkbox"> Concordo com o uso dos dados informados para receber um retorno sobre esta conversa. *
+                    </label>
+                </div>
+                <div class="form-bottom">
+                    <button class="button button-lime" type="submit">Enviar mensagem ↗</button>
+                    <small>PRIMEIRO RETORNO<br>EM ATÉ 2 DIAS ÚTEIS</small>
+                </div>
+                <p class="form-note" id="form-note">FORMULÁRIO DEMONSTRATIVO. NENHUM DADO É ENVIADO.</p>
+            </form>
+        </section>
+        <section class="section dark">
+            <div class="container">
+                <p class="eyebrow lime">O QUE ACONTECE DEPOIS</p>
+                <div class="steps three">
+                    <article>
+                        <b>01 /</b>
+                        <div>
+                            <h3>Analisamos seu pedido</h3>
+                            <p>Entendemos a demanda e confirmamos os detalhes com você.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <b>02 /</b>
+                        <div>
+                            <h3>Fazemos a visita técnica</h3>
+                            <p>Levantamento dos requisitos e das condições do local.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <b>03 /</b>
+                        <div>
+                            <h3>Entregamos layout e orçamento</h3>
+                            <p>Lista de materiais e proposta financeira detalhada.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section container faq"><div><p class="eyebrow">PERGUNTAS FREQUENTES</p><h2>Dúvidas comuns.</h2></div><div class="faq-list"><details><summary>Preciso saber o que contratar?</summary><p>Não. Descreva o problema e o ambiente, e nós mapeamos e indicamos as soluções.</p></details><details><summary>Como funciona o orçamento?</summary><p>Informamos as condições da visita no primeiro contato, por mensagem ou ligação, antes de agendar. O orçamento final vem com o layout e a lista de materiais.</p></details><details><summary>Vocês atendem fora de Belo Horizonte?</summary><p>Presencialmente na região metropolitana de BH. Consultoria e nuvem também de forma remota, para todo o Brasil.</p></details><details><summary>É possível contratar só uma etapa?</summary><p>Sim: só o projeto, só a instalação ou só a manutenção.</p></details><details><summary>Vocês usam IA nos projetos?</summary><p>Sim, onde gera resultado, como análise de vídeo no CFTV e monitoramento preditivo, sempre com supervisão humana e conformidade com a LGPD.</p></details></div></section></main>
+    <footer class="footer">
+        <div class="container footer-main">
+            <div>
+                <a class="logo logo-light" href="index.html">GraTech<span>.</span></a>
+                <p>Energia, redes, segurança e nuvem.<br>Com inteligência na direção do que importa.</p>
+            </div>
+            <div>
+                <b>EXPLORE</b>
+                <a href="index.html">Inicial</a>
+                <a href="servicos.html">Projetos e serviços</a>
+                <a href="membros.html">Membros</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div>
+                <b>CONVERSAS QUE MOVEM</b>
+                <a href="mailto:12500283@aluno.cotemig.com.br">12500283@aluno.cotemig.com.br ↗</a>
+                <span>Minas Gerais, MG — BH</span>
+            </div>
+        </div>
+        <div class="container copyright">© 2026 GraTech · TECNOLOGIA COM DIREÇÃO <span>Marca, equipe e projetos fictícios. Site demonstrativo.</span>
+        </div>
+    </footer>
+</body>
+</html>
